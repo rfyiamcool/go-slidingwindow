@@ -1,3 +1,3 @@
-module github.com/rfyiamcool/slidingwindow.go
+module github.com/rfyiamcool/go-slidingwindow
 
 go 1.18
