@@ -28,7 +28,7 @@ func (we *WindowEntry) Clone() *WindowEntry {
 	}
 }
 
-func NewSlidingWindow(slots int, duration time.Duration) *SlidingWindow {
+func New(slots int, duration time.Duration) *SlidingWindow {
 	var (
 		ring []*WindowEntry
 	)

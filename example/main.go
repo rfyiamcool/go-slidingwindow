@@ -1,26 +1,3 @@
-# slidingwindow
-
-golang simple slidingwindow lib
-
-### api
-
-- New(slots int, duration time.Duration)
-- Set(cnt int64)
-- SetWithTIme(tm time.Time, cnt int64)
-- GetSum()
-- GetAvg()
-- GetMin()
-- GetMax()
-- GetSumWithDuration(dur time.Duration)
-- GetAvgWithDuration(dur time.Duration)
-- GetMinWithDuration(dur time.Duration)
-- GetMaxWithDuration(dur time.Duration)
-- GetStats()
-- GetStatsWithDuration(dur time.Duration)
-
-### example
-
-```go
 package main
 
 import (
@@ -56,4 +33,3 @@ func main() {
 		time.Sleep(100 * time.Millisecond)
 	}
 }
-```
